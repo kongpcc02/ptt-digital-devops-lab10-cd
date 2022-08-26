@@ -11,7 +11,7 @@ imagePullSecrets: []
 userService:
   enabled: true
   name: "kong-test"
-  image: "pttgcdevopsacr09.azurecr.io/demo" #Change this `pttgcdevopsacr09.azureecr.io` to your own acr
+  image: "pttgcdevopsacr09.azurecr.io/kong-user-service" #Change this `pttgcdevopsacr09.azureecr.io` to your own acr
   tag: "bc3f6a57fed8af67c405654d8064c050ca8f7c2b"
   pullPolicy: IfNotPresent
   servicePort: 8080
