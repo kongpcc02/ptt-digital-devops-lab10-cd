@@ -12,7 +12,7 @@ userService:
   enabled: true
   name: "kong-test"
   image: "pttgcdevopsacr09.azurecr.io/demo" #Change this `pttgcdevopsacr02.azureecr.io` to your own acr
-  tag: "b8366c559b79b1542a5bbdb2942ab86e971f987a"
+  tag: "1b581c2c2549f259e627a20d059e041b903dcf00"
   pullPolicy: IfNotPresent
   servicePort: 8080
   resources:
